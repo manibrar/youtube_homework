@@ -7,93 +7,62 @@
     <script type="text/javascript">
     </script>
     <style>
-      #header {
-        height:5%;
-        width: 100%;
-        overflow: hidden;
-        float: top;
-        text-align:center;
-        position: fixed;
-      }
-
-      #leftbar {
-        width: 15%;
-        height:100%;
-        float:left;
-        border-right:1px solid black;
-        position: fixed;
-        top: 0;
-        background-color: white;
-        margin-top: 5%;
-        box-sizing: border-box;
-        overflow: hidden;
-      }
-
-      #rightbar {
-        width: 15%;
-        height:100%;
-        float: right;
-        margin-left:85%;
-        border-left: 1px solid black;
-        position: sticky;
-        top: 0;
-        background-color: white;
-        margin-top: 5%;
-        box-sizing: border-box;
-      }
-
-      #bodymain {
-          width:60%;
-          height:100%;
-          margin-left:20%;
-          margin-right: 20%;
-          padding-top: 10%;
-      }
-
-      #bodysecondary {
-          width:60%;
-          height:100%;
-          margin-left:20%;
-          margin-right: 20%;
-      }
-
-      #bodythird {
-          width:60%;
-          height:100%;
-          margin-left:20%;
-          margin-right: 20%;
-      }
 
     </style>
   </head>
-      <body>
-        <section id="header">
-          <a href="#">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact_us.html">Contact Us</a> <!- comment tag ->
+      <body id="body">
+
+        <section id="headermain" style="text-align:center;margin-right:4%;padding-bottom:300px;">
+          <ul id="header" style="display:inline;text-align:center;">
+          <li class="headli" style="display:inline;align:center;"><a href="#">Home</a></li>
+          <li class="headli" style="display:inline;"><a href="music.html">Music</a></li>
+          <li class="headli" style="display:inline;"><a href="pictures.html">Pictures</a></li>
+          <li class="headli" style="display:inline;"><a href="videos.html">Videos</a></li>
+          <li class="headli" style=display:inline;""><a href="about.html">About</a></li>
+          <li class="headli" style="display:inline;"><a href="contact_us.html">Contact Us</a></li> <!- comment tag ->
+        </ul>
+        </p>
         </section>
-        <section id="leftbar">
-          <ol>
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact_us.html">Contact Us</a></li>
-          </ol>
+
+        <section id="rightbar"></section>
+
+        <section id="bodymainheader" style="background-color:white;">
+              <h1 style="text-align:center;color:blue;">Welcome to the media planet</h1>
+                <img class="spghead" src="./media/Spartan.jpg" alt="Sparta Global logo" style="width:25%;height:25%;padding-left:37%;border-radius: 50%;"></img>
+              <h3 style="text-align:center;color:purple;" >If you love media you're in the right place!</h3>
         </section>
-        <section id="bodymain">
-              <h1>Welcome to Html</h1>
-              <h2>Lower text</h2>
-              <h3>Next Lower</h3>
-              <h4>next</h4>
-              <h5>next</h5>
-              <h6>Lowest</h6>
-        </section>
-        <section id="bodysecondary">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <section id="bodythird">
-              <a href="#">Home</a>
-              <a href="about.html">About</a>
-              <a href="contact_us.html">Contact Us</a>
-        </section>
-      </body>
+
+        <section id="bodysecondary" style="align-items:center;padding-left:5%;padding-top:35%;">
+
+          <h2 style="text-align:center;">Music videos</h2>
+
+            <video class="embedvidmain" width="auto" height="auto" controls>
+              <source src="./media/whole-world.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <video class="embedvidmain" width="auto" height="auto" controls>
+              <source src="./media/whole-world.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <video class="embedvidmain" width="auto" height="auto" controls>
+              <source src="./media/whole-world.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <video class="embedvidmain" width="auto" height="auto" controls>
+              <source src="./media/whole-world.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+          </section>
+
+          <section>
+              <h3>Smartz Whole World featuring Gappy Ranks</h3>
+              <h4></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+
+  </body>
 </html>
